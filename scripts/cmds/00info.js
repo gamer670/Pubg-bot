@@ -35,9 +35,9 @@ module.exports = {
   sendInfo: async function (message) {
     const botName = " 🕸️ SpideY 🕷️ ";
     const botPrefix = ".";
-    const authorName = "𝗔𝗬𝗔𝗡";
-    const authorFB = "NOPE 🐸";
-    const authorInsta = "Shor Mgii 😒";
+    const authorName = "Riaz Mahmud Arman ";
+    const authorFB = "Riaz Mahmud Arman";
+    const authorInsta = "riazmahmudarman";
     const status = "𝗣𝘂𝗿𝗲 𝗦𝗶𝗻𝗴𝗹𝗲";
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/Ayan.json'));
