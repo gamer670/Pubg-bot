@@ -115,7 +115,7 @@ module.exports = {
    };
   
    if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello") ||(event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
-     return api.sendMessage("𝐇𝐢.𝐇𝐞𝐥𝐥𝐨. 𝐚𝐢𝐬𝐨𝐛 𝐧𝐚 𝐤𝐨𝐫𝐞 Ayan 𝐫𝐞 𝐩𝐨𝐭𝐚𝐢𝐭𝐞 𝐨 𝐭𝐨 𝐩𝐚𝐫𝐨𝐬😫🌊", threadID);
+     return api.sendMessage("𝐇𝐢.𝐇𝐞𝐥𝐥𝐨. 𝐚𝐢𝐬𝐨𝐛 𝐧𝐚 𝐤𝐨𝐫𝐞 Arman 𝐫𝐞 𝐩𝐨𝐭𝐚𝐢𝐭𝐞 𝐨 𝐭𝐨 𝐩𝐚𝐫𝐨𝐬😫🌊", threadID);
    };
 
    if ((event.body.toLowerCase() == "bc") || (event.body.toLowerCase() == "bc")) {
@@ -134,14 +134,14 @@ module.exports = {
      return api.sendMessage("𝐀𝐢𝐭𝐨 𝐚𝐦𝐢 𝐣𝐚𝐚𝐚𝐧😘❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Ayan") || (event.body.toLowerCase() == "priyansh rajput") || (event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "Ayan vhai")) {
+   if ((event.body.toLowerCase() == "Arman") || (event.body.toLowerCase() == "priyansh rajput") || (event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "Ayan vhai")) {
      return api.sendMessage( "𝐌𝐲 𝐛𝐨𝐬𝐬 𝐢𝐬 𝐛𝐮𝐬𝐲 𝐧𝐨𝐰!! 𝐃𝐨𝐧'𝐭 𝐝𝐢𝐬𝐭𝐫𝐚𝐛 𝐡𝐢𝐦😒🌊⚠️",threadID);
 
        
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝗔𝗬𝗔𝗡 𝐀𝐇𝐌𝐄𝐝☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝗔𝗬𝗔𝗡🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐧𝐚𝐦𝐞🤓:- ☞ アヤン\n👋For Any Kind Of Help Contact 👉 01839268235", threadID);
+     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞Arman☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Arman🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐧𝐚𝐦𝐞🤓:- ☞ Riaz Mahmud Arman\n👋For Any Kind Of Help Contact 👉 01932137405", threadID);
    };
 
     if (event.body.toLowerCase().startsWith("bot") || event.body.toLowerCase() === "Bot") {
@@ -149,6 +149,4 @@ module.exports = {
         body: `🐱 ${rand}`,
       };
       return api.sendMessage(msg, threadID, messageID);
-    }
-  },
-};
+    }
