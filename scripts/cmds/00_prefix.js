@@ -19,12 +19,12 @@ body: `
 ‣𝐘𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩 𝐩𝐫𝐞𝐟𝐢𝐱:. 
 
 ‣ 𝐀𝐝𝐦𝐢𝐧 
-‣ Ă̈Y̆̈Ă̈N̆̈ /Mahid
+‣ Riaz Mahmud Arman 
 
 ‣ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 ⓕ
-‣LaFie Ayan 
+‣Riaz Mahmud Arman 
 \n\n\n  `,
-attachment: await global.utils.getStreamFromURL("https://i.imgur.com/yCkColX.jpeg")
+attachment: await global.utils.getStreamFromURL("https://i.imgur.com/uZ83XxQ.jpeg")
 });
 }
 }
