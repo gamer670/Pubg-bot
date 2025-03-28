@@ -19,7 +19,7 @@ config: {
       name: 'Arman',
       gender: 'MaLe',
       age: '1+',
-      class: '9',
+      height: '5.11',
       choise: 'Russian 😞',
       nick: 'Jamai Dak mgi '
     };
@@ -38,7 +38,7 @@ config: {
     fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
     const response = ` 
-╭[ .  ]•〆 ᴀʏᴀɴ 〆 ]  ─⦿
+╭[ .  ]•〆 ARMAN 〆 ]  ─⦿
 ╭────────────◊
 ├‣ 𝐁𝐨𝐭 & 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 
 ├‣ 𝐍𝐚𝐦𝐞: ${ownerInfo.name}
